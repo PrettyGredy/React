@@ -1,8 +1,53 @@
-.Nav_bar{
-    background-color: rgba(0,0,0,0.84);
-    height: 50px;
-    width: 1250px;
-    margin: 5px auto;
-    border-radius: 15px;
-    opacity: 0.6;
+.Main_block, .block {
+    border-radius: 3px;
+
+}
+
+.Main_block {
+    width: 1200px;
+    height: 550px;
+    margin: 90px auto;
+}
+
+.block {
+    background-color: white;
+    color: black;
+    float: left;
+    height: 270px;
+    width: 230px;
+    margin: 7%;
+    opacity: 0.8;
+}
+
+.block img {
+    margin-top: 5px;
+    margin-left: 22%;
+}
+
+.block p {
+    display: block;
+    margin: 10px;
+    font-size: 14px;
+    height: 110px;
+    width: 200px;
+}
+
+.block button {
+    color: rgba(0, 0, 0, 0.87);
+    border: none;
+    height: 25px;
+    margin-left: 75px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+
+.block button:hover {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    color: #e71f61;
+    box-shadow: inset 0 0 0 3px #e71f61;
 }

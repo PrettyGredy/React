@@ -1,0 +1,13 @@
+.izo{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.image {
+    box-shadow: inset 6px 6px 10px 3px #e71f61;
+    height: 420px;
+    width: 624px;
+    border-radius: 7px;
+    text-align: center;
+    margin: 5px auto;
+}
